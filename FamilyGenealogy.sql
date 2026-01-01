@@ -3,7 +3,6 @@ GO
 
 DROP DATABASE IF EXISTS Family;
 GO
---*/
 
 CREATE DATABASE Family;
 GO
@@ -204,7 +203,6 @@ FROM Person
 WHERE NetWorth IS NOT NULL;
 GO
 
-/* Requirement 6 */
 WITH PaternalLineage AS (
      SELECT 
         FirstName,
