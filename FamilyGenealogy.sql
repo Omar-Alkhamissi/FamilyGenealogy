@@ -166,8 +166,8 @@ DECLARE @PersonID INT;
 
 EXEC dbo.CreatePerson
     @SIN = '633444677',
-    @FirstName = 'Omar',
-    @LastName = 'Alkhamissi',
+    @FirstName = 'Nolan',
+    @LastName = 'Reed',
     @FatherSIN = '797999211',
     @MotherSIN = '457280211',
     @DateOfBirth = '2003-12-20',
